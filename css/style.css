@@ -396,11 +396,96 @@ ul {
 /* End Tasks */
 
 /* start Latest Upload  */
-.latest-upload ul li:not(:last-child){
+.latest-upload ul li:not(:last-child) {
   border-bottom: 1px solid #eee;
 }
-.latest-upload ul li img{
+.latest-upload ul li img {
   width: 40px;
   height: 40px;
 }
 /* End Latest Upload  */
+
+/* Start Last Project  */
+.last-project ul::before {
+  content: "";
+  position: absolute;
+  left: 11px;
+  width: 2px;
+  height: 100%;
+  background-color: var(--blue-color);
+}
+.last-project ul li::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid white;
+  outline: 2px solid var(--blue-color);
+  margin-right: 15px;
+  z-index: 1;
+}
+.last-project ul li.done::before {
+  background-color: var(--blue-color);
+}
+.last-project ul li.current::before {
+  animation: change-color 0.8s infinite alternate;
+}
+.last-project .launch-icon {
+  position: absolute;
+  width: 160px;
+  right: 0;
+  bottom: 0;
+  opacity: 0.7;
+}
+/* End Last Project  */
+/* Start Reminders  */
+.reminders ul li .key {
+  width: 15px;
+  height: 15px;
+}
+.reminders ul li > .blue{
+  border-left: 2px solid var(--blue-color); 
+}
+.reminders ul li > .green{
+  border-left: 2px solid var(--green-color); 
+}
+.reminders ul li > .orange {
+  border-left: 2px solid var(--orange-color); 
+}
+.reminders ul li > .red{
+  border-left: 2px solid var(--red-color)
+}
+/* End Reminders  */
+/* Start latest post */
+.lastest-post .avatar{
+  width: 48px;
+  height: 48px;
+}
+.lastest-post .post-content{
+  text-transform: capitalize;
+  line-height: 1.8;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  min-height: 140px;
+}
+/* End latest post  */
+
+
+
+
+/* Start animation  */
+@keyframes change-color {
+  from {
+    background-color: var(--blue-color);
+  }
+
+  to {
+    background-color: white;
+  }
+}
+
+/* End animation  */
+
+
