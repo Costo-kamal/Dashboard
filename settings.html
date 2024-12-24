@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <!-- Main fontawsome file -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- framework link  -->
+    <link rel="stylesheet" href="css/framework.css">
+
+    <!-- link css  -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+
+
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+    <div class="page d-flex">
+        <div class="sidebar bg-white pa-20 p-relative">
+            <h3 class="p-relative txt-c mt-0">Costo</h3>
+            <ul>
+                <li>
+                    <a class=" d-flex aling-center fs-14 c-black rad-6 p-10 " href="index.html">
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a class=" active d-flex aling-center fs-14 c-black rad-6 p-10 " href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex aling-center fs-14 c-black rad-6 p-10 " href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Porfile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex aling-center fs-14 c-black rad-6 p-10 " href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex aling-center fs-14 c-black rad-6 p-10 " href="courses.html">
+                        <i
+                            class="fa-solid Rurouni Kenshin – Kyoto Doura Rurouni Kenshin – Kyoto Doura Rurouni Kenshin – Kyoto Doura Rurouni Kenshin – Kyoto Doura fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex aling-center fs-14 c-black rad-6 p-10 " href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" d-flex aling-center fs-14 c-black rad-6 p-10 " href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content w-full">
+            <!-- start head  -->
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input class=" p-10 " type="search" placeholder="Type A Keyword">
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="customer-service.png" alt="">
+                </div>
+            </div>
+            <!-- end head  -->
+            <h1 class="p-relative">Settings</h1>
+            <div class="settings-page m-20 d-grid gap-20">
+                <!-- Start settings box  -->
+                <div class="p-20 bg-white rad-10">
+                    <h2 class="mt-0 mb-10">Site Control</h2>
+                    <p class="mt-0 mb-20 c-grey fs-15">Control The Website If There Is Maintenance</p>
+                    <div class="mb-15 between-flex">
+                        <div>
+                            <span>Website Control</span>
+                            <p class="c-grey mt-5 mb-0 fs-13">Open/Close Website And type The Reason</p>
+
+                        </div>
+                        <div>
+                            <div class="setting-page">
+                                <label>
+                                    <input class="toggle-checkbox" Type="checkbox" checked>
+                                    <div class="toggle-switch"></div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <textarea class="close-message p-10 rad-6 d-block w-full"
+                        placeholder="Close Message Content"></textarea>
+                </div>
+                <!-- End settings box  -->
+                <!-- Start settings box General -->
+                <div class="p-20 bg-white rad-10">
+                    <h2 class="mt-0 mb-10">General Info</h2>
+                    <p class="mt-0 mb-20 c-grey fs-15">General Information About Your Account</p>
+                    <div class="mb-15">
+                        <label class="fs-14 c-grey d-block mb-10" for="first"> First Name</label>
+                        <input class="b-none border-ccc p-10 rad-6 d-block w-full" type="text" id="first"
+                            placeholder="First Name">
+                    </div>
+                    <div class="mb-15">
+                        <label class="fs-14 c-grey d-block mb-10" for="first"> Last Name</label>
+                        <input class="b-none border-ccc p-10 rad-6 d-block w-full" type="text" id="last"
+                            placeholder="Last Name">
+                    </div>
+                    <div>
+                        <label class="fs-14 c-grey d-block mb-10" for="email"> Email</label>
+                        <input class=" email b-none border-ccc p-10 rad-6 mr-10 w-full" type="email" id="email"
+                            value="c@gmail.ma" disabled />
+                        <a class="c-blue" href="#">change</a>
+                    </div>
+
+                </div>
+                <!-- End settings box General  -->
+
+                <!-- Start settings box Security -->
+                <div class="p-20 bg-white rad-10">
+                    <h2 class="mt-0 mb-10">Security Info</h2>
+                    <p class="mt-0 mb-20 c-grey fs-15"> Security Information About Your Account</p>
+                    <div class="sec-box mb-15 between-flex">
+                        <div>
+                            <span>Password</span>
+                            <p class="c-grey mt-5 mb-0 fs-13">Last Change On 25/12/2024</p>
+                        </div>
+                        <a class="button bg-blue c-white btn-shape" href="#">Change</a>
+                    </div>
+
+                    <div class="sec-box mb-15 between-flex">
+                        <div>
+                            <span>Tow-Factor Authentication</span>
+                            <p class="c-grey mt-5 mb-0 fs-13">Enable/Disable The Feature</p>
+                        </div>
+                        <div class="setting-page">
+                            <label>
+                                <input class="toggle-checkbox" Type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="sec-box  between-flex">
+                        <div>
+                            <span>Devices</span>
+                            <p class="c-grey mt-5 mb-0 fs-13">Check The Login Devices List</p>
+                        </div>
+                        <a class=" bg-eee c-black btn-shape" href="#">Devices</a>
+                    </div>
+
+                </div>
+                <!-- End settings box Security  -->
+                <!-- Start settings box Social -->
+                <div class=" social-boxes p-20 bg-white rad-10">
+                    <h2 class="mt-0 mb-10">Social Info</h2>
+                    <p class="mt-0 mb-20 c-grey fs-15"> Social Media Information </p>
+                    <div class="d-flex align-center mb-15">
+                        <i class="fa-brands fa-twitter center-flex c-grey"></i>
+                        <input class="w-full" type="text" placeholder="Twitter Username">
+                    </div>
+                    <div class="d-flex align-center mb-15">
+                        <i class="fa-brands fa-facebook-f center-flex c-grey"></i>
+                        <input class="w-full" type="text" placeholder="Facebook Username">
+                    </div>
+                    <div class="d-flex align-center mb-15">
+                        <i class="fa-brands fa-linkedin center-flex c-grey"></i>
+                        <input class="w-full" type="text" placeholder="Linkedin Username">
+                    </div>
+                    <div class="d-flex align-center mb-15">
+                        <i class="fa-brands fa-youtube center-flex c-grey"></i>
+                        <input class="w-full" type="text" placeholder="Youtube Username">
+                    </div>
+
+
+                </div>
+                <!-- End settings box  Social -->
+                <!-- Start settings box widgets-control-->
+                <div class=" widgets-control p-20 bg-white rad-10">
+                    <h2 class="mt-0 mb-10">Widgets-Control</h2>
+                    <p class="mt-0 mb-20 c-grey fs-15"> Show/Hide Widget </p>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="one" />
+                        <label for="one">Quick Draft</label>
+                    </div>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="two" checked />
+                        <label for="two">yearly Targets</label>
+                    </div>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="three" />
+                        <label for="three">Tickets Dtatistics</label>
+                    </div>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="four" />
+                        <label for="four">Latest News</label>
+                    </div>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="five" checked />
+                        <label for="five">Latest Tasks</label>
+                    </div>
+                    <div class="control d-flex align-center mb-15">
+                        <input type="checkbox" id="six" checked/>
+                        <label for="six">Top Search Items</label>
+                    </div>
+
+                </div>
+                <!-- End settings box widgets-control -->
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
